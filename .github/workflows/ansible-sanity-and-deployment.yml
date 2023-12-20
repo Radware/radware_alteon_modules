@@ -55,6 +55,7 @@ jobs:
           '["stable-2.14", "stable-2.15"]'
       ), matrix.ansible) && 'ubuntu-20.04' || 'ubuntu-latest' }}
     steps:
+      - uses: actions/checkout@v4
       - name: Run ansible-lint
         uses: ansible/ansible-lint@main
       # Run sanity tests inside a Docker container.
@@ -82,7 +83,7 @@ jobs:
     needs: sanity
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: check the secret
         run: echo "${{ secrets.GALAXY_API_KEY }}"
