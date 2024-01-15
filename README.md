@@ -3,7 +3,7 @@
 [![CI sanity tests & deploy to galaxy](https://github.com/Radware/radware_alteon_modules/actions/workflows/ansible-sanity-and-deployment.yml/badge.svg)](https://github.com/Radware/radware_alteon_modules/actions/workflows/ansible-sanity-and-deployment.yml)
 
 # radware_alteon_modules
-The alteon_modules project provides an Ansible collection for managing and automating your Radware devices. It consists of a set of modules and roles for performing tasks related to Radware devices configuration.
+The alteon_modules project provides an Ansible collection for managing and automating your Radware Alteon devices. It consists of a set of modules and roles for performing tasks related to Radware devices configuration.
 
 <b>Note</b>: This Collection is not currently intended to replace the existing <a href="https://galaxy.ansible.com/radware/radware_modules">radware_modules</a> collection.
 
