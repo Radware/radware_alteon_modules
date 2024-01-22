@@ -4,6 +4,13 @@ Radware.Radware_Alteon Release Notes
 
 .. contents:: Topics
 
+v1.1.2
+======
+
+Release Summary
+---------------
+
+Alteon SDK 0.14b1. Tested with Alteon versions 32.4.17.0, 32.6.15.0, 33.0.12.0, 33.5.7.0, and 34.0.3.0.
 
 v1.1.1
 ======
