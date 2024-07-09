@@ -110,15 +110,15 @@ class ConfigurationModule(BaseAPI):
                 if '---' in self.changes:
                     for key in self.changes['---'].keys():
                         if key in device_current:
-                            if type(self.changes['---'][key]) == list:
+                            if isinstance(self.changes['---'][key], list):
                                 for item in self.changes['---'][key]:
                                     device_current[key].remove(item)
                             else:
                                 del device_current[key]
                 if '+++' in self.changes:
                     for key in self.changes['+++'].keys():
-                        if type(self.changes['+++'][key]) == list:
-                            if type(device_current[key]) != list:
+                        if isinstance(self.changes['+++'][key], list):
+                            if not isinstance(device_current[key], list):
                                 device_current[key] = []
                             for item in self.changes['+++'][key]:
                                 device_current[key].append(item)

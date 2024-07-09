@@ -92,6 +92,6 @@ class ManagementModule(BaseAPI):
 
     def _get_mng_class_instance(self, mng_class):
         for k, v in self._device_mng.__dict__.items():
-            if type(v) == mng_class:
+            if isinstance(v, mng_class):
                 return v
         raise RadwareModuleError(f'unable to find SDK management class {mng_class}')
