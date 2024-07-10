@@ -97,7 +97,7 @@ options:
             - Parameters for SLB PIP configuration.
         type: dict
         suboptions:
-            ip_addr:
+            pip_addr:
                   description:
                     - The IPv4 address of the SLB PIP.
                   required: true
