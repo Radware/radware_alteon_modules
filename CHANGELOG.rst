@@ -4,6 +4,20 @@ Radware.Radware_Alteon Release Notes
 
 .. contents:: Topics
 
+v1.1.4
+======
+
+Bugfixes
+--------
+
+- fix AL-149430 | fixed apply - to accept successWithWarning
+
+Release Summary
+---------------
+ 
+Alteon SDK 0.15b1. Tested with Alteon versions 32.4.22.0, 32.6.20.0, 33.0.16.0, 33.5.12.0, 34.0.8.0 and 34.5.3.0.
+
+
 v1.1.3
 ======
 

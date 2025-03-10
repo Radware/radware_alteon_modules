@@ -32,7 +32,7 @@ To upgrade the collection to the latest available version, run the following com
 ```
 You can also install a specific version of the collection, for example:
 ```
-# ansible-galaxy collection install radware.radware_alteon:==1.1.2
+# ansible-galaxy collection install radware.radware_alteon:==1.1.4
 ```
 
 ## Use Cases
