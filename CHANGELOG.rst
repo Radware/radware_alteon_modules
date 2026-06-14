@@ -4,6 +4,21 @@ Radware.Radware_Alteon Release Notes
 
 .. contents:: Topics
 
+v1.1.5
+======
+
+Bugfixes
+--------
+
+- fix AL-156193 | removed unsupported beans from alteon-sdk (AgNewCfgTrapHostTable, Dot1dStaticTable, Dot1dTpFdbTable, SlbEnhVirtServicesWithApmTable)
+    and fixed failures with beans ErrorCountersTable, EventCountersSpTable, EventCountersTable
+- fix AL-156023 | fixed get_indexes function in SlbEnhVirtSpecificServicesInfoTable bean
+
+Release Summary
+---------------
+ 
+Alteon SDK 0.16b2. Tested with Alteon versions 33.0.21.0, 33.5.17.0, 34.0.13.0, 34.5.8.0 and 35.0.1.0.
+
 v1.1.4
 ======
 
