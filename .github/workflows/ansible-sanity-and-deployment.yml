@@ -50,10 +50,11 @@ jobs:
         #     python: '3.10'
         #   - ansible: stable-2.11
         #     python: '3.10'
-    runs-on: >-
-      ${{ contains(fromJson(
-          '["stable-2.14", "stable-2.15"]'
-      ), matrix.ansible) && 'ubuntu-20.04' || 'ubuntu-latest' }}
+    # runs-on: >-
+    #   ${{ contains(fromJson(
+    #       '["stable-2.14", "stable-2.15"]'
+    #   ), matrix.ansible) && 'ubuntu-20.04' || 'ubuntu-latest' }}
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       # - name: Run ansible-lint
